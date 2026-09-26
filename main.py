@@ -78,4 +78,5 @@ def categories():
         return f.read()
 
 if __name__ == "__main__":
+    init_db()
     mcp.run()
